@@ -1,4 +1,4 @@
-# XSS-to-Shell
+# XSS-to-Broswer-Control
 
 * Website to Attack:
 
